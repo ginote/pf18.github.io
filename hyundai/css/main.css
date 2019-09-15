@@ -1,0 +1,124 @@
+#visual{position: relative;width: 100%;height: 100%;}
+#visual img{width: 100%;height: 100%;}
+.viCon{position: absolute;left: 100px;top: 100px;width: 500px;height: 300px;}
+#visual p{color: #fff;font-size: 23px;z-index: 100;text-shadow: #0f2e43 5px 0 5px;}
+#visual p:first-child{font-size: 30px;line-height: 2.5;}
+#container{height: 100%;}
+#container:after{display: block;clear: both;content:"";}
+#content{width: 100%;height: 100%;}
+
+.con-hd0{width: 1100px;height: 500px;margin: 0 auto;padding: 5%;}
+.con-hd0 p,.content4 p{font-size: 25px;color: #0c4da2;text-align: center;margin-bottom: 30px;}
+.con-hd0 span{display: block;text-align: center;font-size: 16px;line-height: 1.5;}
+.con-hd0 ul{width: 100%;height: 270px;margin: 100px auto 0 auto;}
+.con-hd0 ul li{float: left;width: 24%;height: 270px;margin-left: 6px;}
+.con-hd0 ul li a{display: block;height: 100%;}
+.con-hd0 em{display: block;width: 100%;height: 35px;background: #005fc1;color: #fff;text-align: center;line-height: 2.5;}
+.industry li:nth-of-type(1){background: url(../images/main/ethics.png) 50% 65% no-repeat;margin-left: 0;}
+.industry li:nth-of-type(2){background: url(../images/main/safety.png) 50% 65% no-repeat;}
+.industry li:nth-of-type(3){background: url(../images/main/visit.png) 65% 65% no-repeat;}
+.industry li:nth-of-type(4){background: url(../images/main/buy.png) 50% 65% no-repeat;}
+
+.content1{width: 100%;height: 600px;background: url(../images/main/innovation.png) 50% 33% no-repeat;background-size: cover;}
+.con-hd1{position: relative;width: 1100px;margin: 0 auto;}
+.slogan{position: absolute;left: 0;top: 0;width: 320px;height: 460px;background-color: #373737;opacity: 0.9;padding: 80px 25px 60px 25px;}
+.slogan h2{font-size: 36px;color: #fff;}.slogan h3{margin-top: 35px;color: #dad8d8;line-height: 1.7;font-size: 15px;}
+.slogan h2:after{display: block;content: "";width: 50px;height: 4px;background: #fff;margin: 20px 0;}
+
+.world li:nth-of-type(1){background: url(../images/main/asan.png) 50% 65% no-repeat;margin-left: 0;}
+.world li:nth-of-type(2){background: url(../images/main/brochure.png) 50% 65% no-repeat;}
+.world li:nth-of-type(3){background: url(../images/main/company.png) 50% 65% no-repeat;}
+.world li:nth-of-type(4){background: url(../images/main/report.png) 50% 65% no-repeat;}
+
+.content2{width: 100%;height: 100%;}
+.content3{position: relative;width: 100%;height: 850px;background: url(../images/main/eco.png) 50% 65% no-repeat;background-size: cover;}
+.content3 .slogan{position: absolute;left: 75%;top: 0;height: 710px;}
+
+.content4{width: 100%;height: 1100px;}
+.con-hd2{width: 1100px;height: 895px;margin: 0 auto;padding: 5%;}
+.con-hd2 li{float: left;width: 23.6%;height: 420px;background: #eee;margin-left: 5px;margin-bottom: 5px;padding: 5px;}
+.con-hd2 li:first-of-child{margin-left: 0;}
+.con-hd2 li img{max-width: 100%;width: 100%;height: 180px;}
+.con-hd2 li h3{font-size: 15px;line-height: 1.5;margin: 10px;text-align: center;color: #16497f;}
+.con-hd2 li span{line-height: 2;}
+
+@media screen and (max-width:1600px) {
+
+}
+@media screen and (max-width:1310px) {
+	#visual p{font-size: 18px;}
+	#visual p:first-child{font-size: 23px;}
+	.con-hd0{width: 700px;height: 730px;padding: 4%;}
+	.con-hd0 ul{margin: 70px auto 0 auto;}
+	.con-hd0 ul li{width: 48%;margin: 4px 0;}
+	.con-hd0 ul li:nth-of-type(even){margin-left: 8px;}
+	.slogan{width: 260px;}
+	.slogan h2{font-size: 30px;}.slogan h3{font-size: 13px;}
+	.content3 .slogan{left: 60%;}
+	.con-hd2{width: 900px;margin: 0 auto;padding: 5% 0;}
+	.con-hd2 li{width: 30.6%;margin: 0 0 12px 12px;}
+	.con-hd2 li:nth-of-type(7),.con-hd2 li:nth-of-type(8){display: none;}
+}
+@media screen and (max-width: 1162px) {
+	.viCon{height: 200px;}
+	.con-hd0{height: 738px;}
+	.con-hd0 ul{height: 553px}
+	.slogan{left: 5%;padding: 80px 20px 60px 20px}
+	.content3 .slogan{left: 5%;}
+	.content4{height: 1002px;}
+	.con-hd2{}
+	.con-hd2 ul{}
+	.con-hd2 li{width: 30.5%;}
+}
+
+@media screen and (max-width: 982px) {
+	.viCon{left: 48px;top: 66px;}
+	.slogan{height: 215px;}
+	.content3 .slogan{left: 0;width: 280px;height: 215px;}
+	.content4{height: 1002px;}
+	.con-hd2{width: 600px;}
+	.con-hd2 ul{}
+	.con-hd2 li{width: 45.5%;}
+	.con-hd2 li:nth-of-type(5),.con-hd2 li:nth-of-type(6){display: none;}
+}
+@media screen and (max-width: 760px) {
+	#visual p{font-size: 15px;}
+	#visual p:first-child{font-size: 20px;}
+	.viCon {left: 39px;top: 40px;}
+	.con-hd0{width: 400px;}
+	.con-hd0 span {font-size: 14px;line-height: 2;}
+	.con-hd0 ul li{width: 49%;height: 222px;}
+	.industry li:nth-of-type(4){background: url(../images/main/buy.png) 50% 31% no-repeat;}
+	.con-hd0 ul{height: 456px;}
+}
+@media screen and (max-width: 620px) {
+	.viCon{width: 410px;}
+	.con-hd0{height: 593px;}
+	.con-hd0 ul{margin: 30px auto 0 auto;}
+	.con-hd0 p{font-size: 16px;margin-bottom: 10px;}
+	.con-hd0 span{font-size: 12px;}
+	.slogan,.content3 .slogan{left: 0;width: 100px;height: 180px;padding: 19px 10px 15px 10px;}
+	.slogan h2{font-size: 16px;}
+	.slogan h2:after{width: 30px;margin: 10px 0;height: 2px;}
+	.slogan h3{font-size: 11px;margin-top: 10px;}
+	.content4{display: none;}
+}
+@media screen and (max-width: 480px) {
+	.viCon{width: 335px;left: 10px;top: 10px;}
+	.con-hd0{width: 300px;height: 616px;}
+	.con-hd0 ul{margin: 15px 15px 0;}
+	.con-hd0 ul li{width: 90%;}
+	.con-hd0 ul li:nth-child(even){margin-left: 0;}
+	.con-hd0 ul li:nth-child(3),.con-hd0 ul li:nth-child(4){display: none;}	
+}
+
+
+
+
+
+
+
+
+
+
+

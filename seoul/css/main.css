@@ -1,0 +1,138 @@
+#visual{position: relative;width: 100%;height: 600px;}
+.main-visual{position: absolute;left: 0;top: 0;width: 100%;height: 600px;}
+.main-visual li{position: absolute;left: 100%;top: 0;width: 100%;height: 600px;background-size: cover;}
+.main-visual li:nth-of-type(1){position: absolute;left: 0;top: 0;}
+
+.infoBox,.freeze,.returnFarm,.journalist{position: absolute;left: 460px;top: 100px;}
+
+.main-visual h2{font-size: 35px;line-height: 1.5;}
+.main-visual h3{font-size: 25px;line-height: 2.5;}
+.main-visual span{display: block;font-size: 20px;line-height: 2.5}
+.main-visual p,.main-visual em{display: block;font-size: 16px;line-height: 2;}
+
+.freeze p{margin: 20px 0 0;font-size: 20px;color: #f40238;}.freeze em{display: block;font-size: 17px;}
+
+.returnFarm{background: rgba(188,210,197,0.7);color: #fff;padding: 25px 20px;}
+.returnFarm span{background: #209c04;border-radius: 30px;margin-top: 25px;text-align: center;}
+.journalist,.journalist h2,.journalist h3{color: #fff;}
+.journalist h3{line-height: 2;}
+.journalist span{line-height: 2;}
+.journalist p{margin-top: 20px;background: #2a4c76;width: 120px;padding: 6px;text-align: center;border-radius: 20px;}
+
+.main-visual li:nth-of-type(1){background: url(../images/main/vi0.png) 0 0 no-repeat;}
+.main-visual li:nth-of-type(2){background: url(../images/main/vi1.png) 0 0 no-repeat;}
+.main-visual li:nth-of-type(3){background: url(../images/main/vi2.png) 0 0 no-repeat;}
+.main-visual li:nth-of-type(4){background: url(../images/main/vi3.png) 0 0 no-repeat;}
+
+.page{width: 100%;position: absolute;left: 0;top: 0;z-index: 500;}
+.page li{float: left;width: 40px;height: 40px;text-align: center;padding: 10px;font-size: 35px;border: 1px solid #000;background: #f3f2ed;cursor: pointer;}
+.front{position: absolute;left: 0;top: 250px;}
+.back{position: absolute;right: 0;top: 250px;}
+
+.inner-wrap{position: relative;width: 1200px;height: 70px;margin: auto;}
+.number-box{position: absolute;left: 100px;top: 540px;float: left;width: 120px;height: 45px;border-radius: 30px;background: #1350ad;color: #fff;}
+.number-box p,.number-box span{padding: 12px;}
+.number-box img{position: absolute;right: 15px;top: 13px;cursor: pointer;}
+
+.vi-menu{position: absolute;left: 475px;top: 530px;z-index: 250;}
+.s-service{position: absolute;left: 250px;top: 530px;}
+.vi-menu li,.s-service{float: left;width: 225px;height: 70px;background: #113469;cursor: pointer;}
+.vi-menu li.on{background: #5a85c6;}
+.vi-menu > li a,.s-service{display: block;color: #fff;font-size: 17px;text-align: center;line-height: 4.2;}
+
+.user-service{position: absolute;left: -225px;top: 70px;z-index: 200;background: #5a85c6;width: 900px;height: 210px;background-repeat: no-repeat;background-position: 12px 10px;}
+.user-service span{display: block;position: absolute;right: 10px;top: 10px;z-index: 300;font-size: 36px;cursor: pointer;}
+.fam{background-image: url(../images/main/seoulFam.png);}
+.consult{background-image: url(../images/main/seoulConsult.png);background-position: 0 10px;}
+.tour{background-image: url(../images/main/seoulTour.png);}
+.serviceList{position: absolute;left: 200px;top: 0;padding: 10px;}
+.serviceList li{float: left;width: 170px;height: 40px;line-height: 2.5;color: #fff;background: #5a85c6;}
+
+#container{height: 100%;}
+#container:after{display: block;content: "";clear: both;}
+#content{width: 100%;}
+.con-inner{width: 1400px;height: 100%;margin: auto;}
+.info-service{margin: 30px 0;}
+.info-service li{float: left;width: 107px;height: 145px;margin-left: 10px;}
+.info-service li:first-of-type{margin-left: 0;}
+.info-service li a{display: block;width: 107px;height: 107px;background: #f7f8fa;border-radius: 30px;}
+.info-service li:hover a{background: #d7dadf;}
+.info-service li img{width: 80px;height: 80px;margin: 15px;}
+.info-service li span{display: block;text-align: center;line-height: 2;}
+
+.reference{position: relative;width: 1400px;height: 355px;border-bottom: 1px solid #737987;overflow: hidden;}
+.menu-tab{width: 1400px;height: 60px;}
+.menu-tab dt{float: left;width: 265px;height: 60px;text-align: center;background: #fafafa;border: 1px solid #e2e6ed;border-bottom: 1px solid #737987;cursor: pointer;}
+.menu-tab dt a{font-size: 16px;line-height: 3.5;}
+.menu-tab dt:last-child{width: 60px;}
+.menu-tab dt.on{height: 58px;border-top: 2px solid #5474c0;background: #fff;border-bottom: none;border-left: none;}
+.menu-tab dt.on a{color: #5474c0;}
+.menu-tab dd{position: absolute;left: 0;top: 60px;width: 1392px;height: 320px;border-bottom: 2px solid #e2e6ed;border-top: none;}
+.cityTab{width: 1392px;height: 300px;}
+.cityTab li{float: left;width: 279px;height: 180px;border: 2px solid #e5e5e5;margin: 25px 12.5px;padding: 20px;cursor: pointer;}
+
+.menu-tab li p{font-size: 18px;font-family: 'nanumB';}
+.menu-tab li span{display: block;color: #5474c0;margin-top: 65px;}
+.menu-tab li em{display: block;}
+
+.now-seoul{position: relative;width: 1400px;height: 507px;margin-bottom: 40px;}
+.banimg{float: left;position: relative;width: 345px;height: 330px;}
+.banimg ul{float: left;}
+.banimg li{position: absolute;left: 0;top: 0;width: 345px;height: 330px;}
+.banimg li img{width: 100%;height: 100%;}
+.numcounter{position: absolute;left: 260px;top: 15px;z-index: 100;width: 59px;height: 53px;background: rgba(62,61,57,0.5);color: #fff;padding: 5px;}
+.numcounter p{float: left;width: 65px;height: 30px;margin-left: 15px;}
+.numcounter ul{margin-left: 5px;}
+.numcounter li{width: 20px;height: 20px;border: 1px solid #000;line-height: 1.5;text-align: center;cursor: pointer;}
+.numcounter li:first-of-type{position: absolute;left: 8px;top: 30px;}
+.numcounter li:last-of-type{position: absolute;left: 35px;top: 30px;}
+.numcounter li.on{background: #000;color: #fff;}
+
+.recommend{float: left;width: 755px;height: 330px;background: #eee;}
+.recommend h3{font-size: 16px;padding: 5px 17px;}
+.recommend ul{margin: 0 17px;}
+.recommend li{float: left;width: 350px;height: 130px;background: #fff;}
+.recommend li:nth-of-type(odd){margin-right: 17px;}
+.recommend li:nth-of-type(1),.recommend li:nth-of-type(2){margin-bottom: 17px;}
+.recommend li img{float: left;width: 175px;height: 115px;margin: 8px;}
+.recommend li p{line-height: 2.5;}
+.recommend li span{}
+
+.banAdv{float: left;width: 1100px;height: 175px;}
+.banAdv ul{margin-top: 1px;}
+.banAdv li{float: left;width: 549px;}
+.banAdv li:first-of-type{margin-right: 1px;}
+.banAdv img{width: 549px;cursor: pointer;}
+
+.mayor{position: absolute;right: 0;top: 0;width: 300px;height: 505px;cursor: pointer;}
+.mayor h3{font-size: 23px;position: absolute;left: 40px;top: 40px;z-index: 100;color: #fff;}
+.mayor ul{position: absolute;left: 40px;bottom: 32px;}
+.mayor li{line-height: 1.5;color: #fff;width: 123px;height: 25px;font-family: 'nanumB';}
+.mayor img{position: absolute;right: 0;top: 0;}
+
+.inseoul{width: 100%;height: 500px;}
+.story{float: left;position: relative;width: 620px;height: 500px;}
+.storyTab{float: left;width: 200px;height: 460px;padding: 20px;}
+.storyTab p{line-height: 2.5;}
+.storyTab a{color: #fff;}
+.storyTab a.on{color: #efc20e;}
+.storyTab img{position: absolute;left: 0;top: 0;z-index: -100;}
+.storyBan{float: left;}
+.storyBan li{position: absolute;left: 240px;top: 0;width: 380px;height: 500px;}
+.storyBan p{position: absolute;left: 30px;top: 365px;font-size: 20px;line-height: 2;z-index: 100;}
+.storyBan span{display: block;position: absolute;left: 30px;top: 405px;line-height: 1.5;z-index: 100;}
+.storyBan li:nth-of-type(2) p,.storyBan li:nth-of-type(2) span{color: #fff;}
+.storyBan img{position: absolute;right: 0;top: 0;}
+
+.fast{float: right;padding: 40px;width: 700px;height: 420px;background: #eee;}
+.fast li{float: left;width: 120px;height: 130px;margin: 12px 25px;cursor: pointer;}
+.fast li img{width: 100px;margin: 0 12px 5px;}
+.fast li span{display: block;text-align: center;}
+
+.allSeoul{width: 1400px;height: 335px;margin-top: 40px;}
+.allSeoul >li{position: relative;float: left;width: 463px;height: 45px;text-align: center;line-height: 2;line-height: 3;background: #333;color: #fff;}
+.allSeoul li ul{position: absolute;left: 0;top: 45px;float: left;width: 462px;height: 280px;background: #e5e5e5;padding: 5px 0;}
+.allSeoul .left{float: left;width: 231px;}
+.allSeoul ul li{float: left;width: 216px;height: 28px;margin-left: 15px;text-align: left;line-height: 2;color: #000;}
+
+

@@ -1,0 +1,92 @@
+.sideMenu{float: left;width: 250px;height: 100%;}
+.pageName{position: relative;height: 160px;background: #5474c0;}
+.pageName p{text-align: center;font-size: 20px;padding-top: 65px;color: #fff;}
+.pageName p:after{display: block;content: "";width: 100px;height: 1px;position: absolute;left: 76px;top: 58px;background: #eee;}
+.sideTop{border: 1px solid #e9e9e9;}
+.sideTop li{position: relative;border-bottom: 1px solid #e9e9e9;padding-left: 30px;}
+.sideTop li a{display: block;font-size: 16px;line-height: 3.5;}
+.currentMenu{color: #5474c0;font-family: 'nanumB';}
+.sideTop li img{position: absolute;left: 200px;top: 22px;}
+.sideTop li > ul{height: 100%;background: #f6f6f6;width: 248px;margin-left: -30px;}
+.sideTop li > ul li,.sideTop li > ul li a{width: 220px;}
+
+.myseoul{margin-top: 45px;}
+.myseoul li{position: relative;height: 53px;border: 1px solid #e9e9e9;padding-left: 30px;}
+.myseoul li.on{background: #5474c0;color: #fff;}.myseoul li.on a{color: #fff;}
+.myseoul li:nth-of-type(2){margin: 15px 0;}
+.myseoul li a{font-size: 16px;line-height: 3.2;}
+.myseoul li img{position: absolute;left: 200px;top: 17px;}
+
+.todayNews{position: relative;float: right;width: 1130px;}
+.todayNews h2{font-size: 35px;border-bottom: 1px solid #8c8c8c;margin-bottom: 20px;padding: 10px 0;}
+.infomation{height: 30px;background: #f9f9f9;padding: 10px;border-top: 1px solid #ededed;border-bottom: 1px solid #ededed;}
+
+.newsPage{padding: 15px 0;}
+
+.newsCon{position: relative;width: 1130px;height: 980px;}
+.newsList{width: 1130px;height: 100%;position: absolute;left: 0;top: 0;}
+.newsList li{position: relative;height: 220px;border-bottom: 1px solid #000;}
+.newsList li:first-of-type{border-top: 1px solid #000;}
+.newsList li a{display: block;}
+.newsList img{margin: 20px 0;}
+.explain{position: absolute;left: 260px;top: 20px;}
+.explain h3{font-family: 'nanumB';font-size: 16px;}
+.explain strong{color: #5474c0;}
+.explain em{color: #666666;line-height: 1.5;}
+
+.pageNumber{position: relative;width: 526px;height: 42px;}
+.number{width: 600px;position: absolute;left: 445px;top: 920px;margin-left: 29px;}
+.number li{float: left;width: 40px;height: 40px;border: 1px solid #000;margin: 0 5px;text-align: center;}
+.number li.on{background: #000;}.number li.on a{color: #fff;}
+.number li a{display: block;width: 40px;height: 40px;line-height: 2.7;}
+.pageNumber p{cursor: pointer;}
+.prev{position: absolute;left: 440px;top: 930px;}
+.next{position: absolute;left: 760px;top: 930px;}
+
+.choose{float: left;position: relative;width: 65px;height: 20px;background: #fff;padding: 3px;margin-right: 10px;border: 1px solid #a9a9a9;overflow: hidden;}
+.choose li{height: 28px;}
+.choose img{position: absolute;right: 10px;top: 10px;cursor: pointer;}
+.keyword{width: 238px;height: 18px;padding: 3px;}
+.find{position: absolute;left: 340px;top: 104px;border: 1px solid #a9a9a9;background: #fff;width: 20px;height: 20px;padding: 3px;}
+.find img{padding-left: 3px;}
+
+.chart{position: relative;width: 1130px;height: 1360px;background: url(../images/sub/line.png) 112px 54px no-repeat;}
+.chart strong{display: block;width: 194px;height: 35px;padding: 10px;margin: 50px auto;border: 1px solid #a9a9a9;text-align: center;line-height: 2.5;}
+.people{background: #339adc;color: #fff;}
+.chart li{width: 194px;height: 35px;padding: 10px;border: 1px solid #a9a9a9;text-align: center;}
+.chart li a{display: block;line-height: 2.5;}
+.committee,.deputy{float: left;}
+.deputy{margin-left: 225px;}
+.committee li,.deputy li{float: left;margin: 0 5px 50px;}
+.deputy1{position: absolute;left: 230px;top: 435px;}
+.deputy2{position: absolute;left: 458px;top: 435px;}
+.project{position: absolute;left: 0;top: 730px;}
+.deputySub1{position: absolute;left: 230px;top: 780px;}
+.deputySub2{position: absolute;left: 458px;top: 780px;}
+
+.board h4{font-size: 16px;color: #f35b57;margin: 40px 0 20px;}
+.board p{margin: 10px;}
+.board span{font-family: 'nanumB';font-size: 20px;}
+.mean{width: 100%;height: 100%;margin: 30px 12%;}
+.chinese{float: left;font-size: 27px;width: 30px;height: 30px;padding: 30px;border-radius: 50%;background: #e2e6ed;}
+.board strong{float: left;margin: 35px;}
+
+.citizenBoard{position: relative;width: 1130px;height: 208px;}
+.citizenBoard dt{float: left;width: 563px;height: 50px;text-align: center;line-height: 3.5;background: #fafafa;border: 1px solid #e2e6ed;border-bottom: 1px solid #737987;cursor: pointer;}
+.citizenBoard dt.on{border-top: 2px solid #5474c0;background: #fff;border-bottom: none;border-left: none;}
+.citizenBoard dd{position: absolute;left: 0;top: 51px;width: 1115px;height: 136px;padding: 15px 10px;border-bottom: 1px solid #737987;}
+.citizenBoard em{position: absolute;right: 30px;}
+.citizenBoard li{line-height: 2;}
+
+.community li{float: left;width: 265px;height: 360px;border: 1px solid #e2e6ed;margin: 0 10px;}
+.community li:nth-of-type(1){margin-left: 0;}
+.community li:nth-of-type(4){margin-right: 0;}
+.community li img{padding: 5px;}
+
+.seoulBanner{margin: 40px 0;}
+.seoulBanner li:nth-of-type(1){margin-right: 20px;background: url(../images/sub/democratic.png) 15px 5px no-repeat;background-color: #e2e6ed;}
+.seoulBanner li:nth-of-type(2){background: url(../images/sub/notes.png) 15px 5px no-repeat;background-color: #e2e6ed;}
+.seoulBanner li{float: left;width: 553px;height: 75px;border: 1px solid #e2e6ed;}
+.seoulBanner li a{display: block;margin: 23px 110px;font-size: 16px;}
+
+

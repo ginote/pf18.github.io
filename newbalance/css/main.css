@@ -1,0 +1,83 @@
+.wrap{width: 100%;height: 100%;}
+#container{height: 100%;}
+#container:after{display: block;content: "";clear: both;}
+.content{width: 100%;}
+.content h2{font-family: 'Roboto Condensed', sans-serif;font-size: 45px;}
+
+#section0{position: relative;height: 1000px;background: url(../images/main/hometraining.jpg) 0 0 no-repeat;background-size:cover;}
+.womens,.legendary{width: 310px;height: 500px;position: absolute;left: 240px;top: 140px;}
+.womens h2,.legendary h2{font-size: 45px;float: left;letter-spacing: 2px;color: #444;}
+.womens h2:nth-of-type(2){color: #e51a38;margin-top: 67px;margin-left: -80px;}.womens h2:nth-of-type(3){margin-top: 67px;margin-left: -57px;margin-bottom: 35px;}
+.womens span,.legendary span{display: block;line-height: 2;font-size: 16px;}
+.womens strong{display: block;color: #e51a38;float: left;line-height: 2.1;font-weight: bold;}
+.kim{position: absolute;left: 580px;top: 300px;box-shadow: 0 2px 3px 1px;}
+
+#section1{position: relative;height: 1600px;}
+.legendary span{width: 351px;margin: 175px 0;}
+.catalog{position: absolute;left: 750px;top: 125px;width: 780px;height: 500px;}
+.catalog span{display: block;font-size: 20px;margin-bottom: 20px;}
+.w480{position: absolute;left: 240px;top: 600px;width: 1400px;height: 950px;margin: auto;}
+.w480 h2{text-align: center;font-size: 50px;letter-spacing: 25px;}
+.w1{position: absolute;left: 330px;top: 140px;}
+.w2{position: absolute;left: 750px;top: 100px;}
+.w3{position: absolute;left: 750px;top: 510px;}
+.w4{position: absolute;left: 390px;top: 410px;}
+
+#section2{position: relative;height: 1050px;background: url(../images/main/pufferdown.png) 0 20% no-repeat;background-size: cover;color: #fff;}
+#section2 h2{text-align: center;font-size: 50px;letter-spacing: 15px;padding: 50px 0 15px;color: #fff;}
+#section2 span{display: block;text-align: center;font-size: 18px;line-height: 2;}
+.puffer{position: absolute;left: 480px;top: 260px;width: 510px;height: 700px;border: 12px solid #fff;overflow: hidden;}
+.downjacket{position: absolute;left: 0;top: 0;width: 1533px;height: 700px;}
+.downjacket li{width: 511px;float: left;}
+
+.half{position: absolute;left: 1100px;top: 260px;}
+.half h4{font-size: 30px;font-family: 'Roboto Condensed', sans-serif;color: #fff;letter-spacing: 8px;}
+.half h4:after{display: block;content:"";width: 250px;height: 2px;background: #fff;margin: 15px 0;}
+.half p{font-size: 18px;line-height: 2;}
+.half em{display: block;width: 30px;height: 30px;border-radius: 50%;margin: 15px 15px 0 0;}
+.half em:first-of-type{background: #ffab00;}
+.half em:nth-of-type(2){background: #000;}
+.half strong:first-of-type{position: absolute;left: 50px;top: 178px;}
+.half strong:nth-of-type(2){position: absolute;left: 50px;top: 222px;}
+.go{width: 150px;height: 40px;background: #fff;margin-top: 35px;text-align: center;border: 2px solid #000;}
+.go a{display: block;font-family: 'nanumB';line-height: 3;}
+
+#section3{position: relative;height: 750px;}
+.history{position: absolute;left: 240px;top: 140px;margin-top: 35px;}
+.history p{font-size: 18px;line-height: 2;}
+.history p:after{display: block;content:"";width: 540px;height: 1px;background: #111;margin: 10px 0;}
+.history span{display: block;font-size: 16px;line-height: 1.5;}
+iframe{position: absolute;left: 750px;top: 140px;}
+
+#section4{height: 900px;}
+.bag{position: relative;width: 100%;height: 300px;padding: 10px 0;background: #e6e6e4;}
+.bag:nth-of-type(even){background: #d7d7d6;}
+.bag img{position: absolute;left: 440px;top: 20px;}
+.pouch{animation: pouch 2s infinite;}
+@keyframes pouch{
+	0%{top: 20px;}
+	100%{top: 175px;}
+} 
+.wallet{margin-left: 200px;animation: wallet 2s ease infinite;}
+@keyframes wallet{
+	0%{top: 20px;transform: scale(1.1);}
+	50%{top: 40px;transform: scale(1.0);}
+	100%{top: 20px;transform: scale(1.1);}
+}
+
+.multibag{position: absolute;left: 880px;top: 40px;font-size: 30px;}
+.multibag span{font-size: 18px;}
+
+#section5{position: relative;height: 600px;}
+.luxe{position: absolute;left: 540px;top: 140px;}
+.luxe h3{font-size: 18px;}
+.detail{position: absolute;left: 285px;top: 80px;}
+
+.sideMenu{position: fixed;right: 30px;top: 400px;width: 18px;height: 200px;}
+.sideMenu li{position: relative;width: 18px;height: 18px;border-radius: 50%;background: #000;margin-bottom: 17px;}
+.sideMenu li.on{background: #e51130;}
+.sideMenu li a{display: block;text-indent: -9999em;}
+.sideMenu strong{display: none;width: 330px;position: absolute;left: -160px;top: -4px;display: block;padding: 8px;color: #fff;background: url(../images/main/sideBg.png) 0 0 no-repeat;}
+
+
+

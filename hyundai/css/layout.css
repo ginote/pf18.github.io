@@ -1,0 +1,144 @@
+body{overflow-x:hidden;}
+#header{width: 100%;height: 65px;}
+#header .inner{position: relative;width: 95%;height: 65px;margin: auto;}
+#header h1{position: absolute;left: 0;top: 25%;}
+#nav{width: 65%;position: absolute;left: 17%;top: 25%;}
+.hdCenter{position: absolute;left: 57%;top: 0;width: 240px;}
+.hdCenter p{float: left;margin-left: 59px;}
+#gnb > li{float: left;margin-left: 5%;}
+#gnb > li:first-of-type{margin-left: 0;}
+#gnb > li a,.hdCenter a{font-size: 16px;}
+
+.hdmenu{position: absolute;left: 0;top: 49px;width: 100%;height: 500px;background: #fff;z-index: 100;border-bottom: 1px solid #000;}
+.hdmenu p{margin: 8px 0 3px;}
+
+.hdGnb{float: left;width: 540px;height: 480px;margin-right: 20px;}
+.hdGnb img{float: left;margin-right: 10px;}
+.hdGnb li{margin: 25px 0 0;}
+.hdGnb2{float: left;width: 600px;height: 560px;}
+.hdGnb2 li{width: 240px;height: 180px;}
+.hdmenu li{float: left;margin: 10px 0;}
+
+.hd li{width: 220px;height: 170px;}
+.hd p{margin: 8px 0 3px;}
+
+#gnb p{color: #0034b7;}#gnb span{font-size: 13px;color: #333;}
+
+.side{position: absolute;right: 0;top: 7%;width: 230px;}
+.side li{line-height: 1.5;}
+.side li a,.side p a{color: #fff;font-size: 13px;}
+.familySIte{position: relative;width: 170px;height: 26px;z-index: 200;}
+.family{float: left;width: 160px;height: 26px;}
+.family img{margin: 5% 0 0 12%;}
+.family li{width: 142px;height: 26px;background: #005fc1;padding: 1px 8px;}
+
+.familySIte p{position: absolute;left: 128px;top: 3%;width: 30px;height: 26px;text-align: center;background: #16497f;}
+
+.serviceTab{margin: 5px 0;}
+.serviceTab li{float: left;width: 79px;height: 24px;text-align: center;}
+.serviceTab li:nth-of-type(1){background: #00ac4e;}
+.serviceTab li:nth-of-type(2){background: #faa619;}
+.serviceTab li:nth-of-type(3){display: none;width: 55.5px;height: 55.5px;background: #333;margin-top: -31px;margin-left: 5px;}
+.serviceTab li:nth-of-type(3) a{font-size: 16px;line-height: 3.2;}
+
+.all{position: absolute;right: 0;top: 0;width: 55px;height: 55px;background: #333;margin-left: 10px;cursor: pointer;}
+.all img{margin: 21px 19px;}
+.sideList{position: absolute;right: -350px;top: 0;width: 300px;background: rgba(0,9,8,0.5);z-index: 200;}
+.closeBox{position: absolute;right: 15px;top: 15px;cursor: pointer;}
+.allMenu{width: 100%;height: 100%;padding: 20px;margin-top: 50px;}
+.allMenu li{position: relative;width: 225px;border-bottom: 1px solid #eee;}
+.allMenu li.on > a{color: #f2fb00;}
+.allMenu li a{display: block;font-size: 18px;line-height: 2;}
+.allMenu li > ul{height: 100%;margin-left: 10px;}
+.allMenu li > ul li{width: 225px;margin-bottom: none;border-bottom: none;}
+.allMenu li > ul li a{color: #fafbea;}
+.allMenu img{position: absolute;left: 190px;top: 14px;}
+
+#footer{width: 100%;height: 250px;background: #2d3032;color: #fff;}
+#footer .inner{width: 95%;height: 192px;margin: auto;}
+.footerTop{width: 100%;height: 100px;padding: 25px 0;}
+.hdLogo{width: 250px;float: left;margin-right: 5%;}.hdLogo p{margin: 10px 0;}
+.hdFam{position: relative;width: 72%;height: 54px;float: left;}
+.hdFam img{margin-top: 18px;margin-left: 75%;}
+.hdFam ul{height: 206px;border: 2px solid #fff;}
+.hdFam ul li{height: 50px;border-bottom: 2px solid #fff;padding-left: 5%;background: #2d3032;}.hdFam ul li a{display: block;line-height: 3.5;color: #fff;}
+.hdFam p{position: absolute;right: 2px;top: 2px;width: 13%;height: 50px;text-align: center;background: #4f5053;line-height: 3.5;}.hdFam p a{color: #fff;}
+.adr{margin: 55px auto;color: #fff;line-height: 3;}
+
+.info{width: 100%;height: 40px;margin-top: 60px;}
+.info li{float: left;width: 33%;height: 40px;text-align: center;}.info li:nth-of-type(2){border-left: 2px solid #fff;border-right: 2px solid #fff;}.info li a{display: block;line-height: 2;color: #fff;}
+
+@media screen and (max-width:1670px) {
+	.hdGnb{width: 450px;height: 480px;margin-right: 20px;}
+	.hdGnb li{margin: 25px 0 0;}
+	.hdGnb2{width: 500px;}
+	.hdGnb2 li{width: 220px;}
+	.hdCenter{display: none;}
+}
+@media screen and (max-width:1588px) {
+	.hdGnb{width: 330px;height: 480px;margin-right: 15px;}
+	.hdGnb img{width: 190px;height: 140px;}
+	.hdGnb li{margin: 15px 0 0;}
+	.hdGnb2{width: 450px;}
+	.hdGnb2 li{width: 210px;height: 180px;}
+	.hdmenu li{float: left;margin: 10px 3px;}
+}
+@media screen and (max-width:1310px) {
+	#header .inner{width: 100%;}
+	#header h1{left: 45%;}
+	#nav{display: none;}
+	#gnb > li ul{display: none;}
+	.hdFam img{margin-left: 70%;}
+
+}
+@media screen and (max-width: 1162px) {
+	#header h1{left: 0;}
+	#footer,#footer .inner{height: 260px;}
+	.hdLogo{width: 220px;margin-right: 4%;}.hdLogo p{margin: 7px 0;}
+	.hdFam{width: 72%;height: 50px;}
+	.hdFam i{margin-left: 70%;}
+	.hdFam ul{border: 2px solid #fff;}
+	.hdFam ul li{height: 50px;padding-left: 4%;}.hdFam ul li a{line-height: 3;}
+	.hdFam p{right: 2px;top: 2px;width: 11%;height: 50px;line-height: 3;}
+	.info{width: 100%;height: 44px;}
+	.info li{width: 30%;border: 2px solid #fff;}
+	.info li:nth-of-type(2){margin: 0 3%;}
+	.info li a{line-height: 2.7;}
+
+}
+@media screen and (max-width: 982px) {
+	#footer,#footer .inner{height: 360px;}
+	.hdLogo{width: 265px;margin-right: 4%;}.hdLogo p{margin: 7px 0;}
+	.hdFam{width: 100%;height: 50px;margin: 15px 0 0;}
+	.info{margin-top: 110px;}
+	.info li{width: 30.8%;}
+}
+@media screen and (max-width: 804px) {
+	.hdLogo{width: 100%;}
+	.hdLogo h1,.hdLogo p{line-height: 3;text-align: center;}
+	.info li{width: 29.5%;}
+	.info li a {line-height: 3.5;font-size: 11px;}
+}	
+@media screen and (max-width: 556px) {
+	#footer{height: 385px;}
+	.info li{width: 46%;}
+	.info li:last-child{width: 95.5%;margin-top: 12px;}
+	.hdFam img{margin-left: 63%;}
+}
+@media screen and (max-width: 514px) {
+	.familySIte,.serviceTab li:nth-child(1),.serviceTab li:nth-child(2){display: none;}
+	.serviceTab li:nth-child(3){display: block;margin-top: -5px;}
+	#footer{height: 430px;}
+	.hdLogo p{text-align: left;line-height: 1.5;}
+	.hdFam{margin: 15px 0;}
+	.hdFam i{margin-left: 58%;}
+	.adr{line-height: 1.5;}
+	.info{margin-top: 110px;}
+	.info li{width: 95.5%;margin: 5px 0;}
+	.info li:nth-of-type(2){margin: 0;}
+	.info li:last-child{margin-top: 5px;}
+}
+@media screen and (max-width: 480px) {
+
+}
+
